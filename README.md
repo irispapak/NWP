@@ -1,5 +1,5 @@
 -------------
-NWP Projects:
+Finite Differences:
 -------------
 
 -1st project:
