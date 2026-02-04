@@ -1,12 +1,28 @@
--------------
-Finite Differences:
--------------
+# Numerical Weather Prediction (NWP): Fundamentals and Stability
 
--1st project:
+This repository contains numerical experiments and projects focused on the mathematical foundations of Numerical Weather Prediction. The projects investigate discretization methods, error propagation, and the numerical stability of atmospheric solvers.
 
-Calculation of the 1st derivative of exp(x) and cos(x) at x=1 for Dx=1,1/2,1/3,1/4,...,1/100 using the approximations of 1st, 2nd and 4th order.
+## Project 1: Numerical Differentiation and Error Analysis
 
+This project explores the sensitivity of numerical derivatives to horizontal grid spacing ($\Delta x$).
+- **Objective**: Compare analytical derivatives of trigonometric and exponential functions with numerical approximations at different resolutions.
+- **Process**: Implementation of finite difference schemes and systematic evaluation of truncation errors as $\Delta x$ decreases from 100km to 20km.
+- **Key Analysis**: Identification of the convergence rates and the "double penalty" effect in high-resolution differentiation.
 
--2nd project:
+## Project 2: Stability and Time-Steering
 
-Calculation of time & space derivetives with the method CTCS. For the first timestep the method FTCS is used. 
+Focuses on the temporal evolution and stability of numerical solutions.
+- **Objective**: Visualize and analyze the stability criteria (e.g., Courant-Friedrichs-Lewy / CFL condition) for atmospheric equations.
+- **Visualization**: Output includes `.gif` animations showing the evolution of various functions and their associated error propagation over time.
+- **Key Analysis**: Investigation of how time-step selection ($\Delta t$) impacts the fidelity of the numerical prediction.
+
+## Requirements
+
+- Python 3.x
+- NumPy
+- Matplotlib
+- SciPy
+
+## Key Scripts
+- `numerical_weather_prediction_project_1.py`: Finite difference and error scaling analysis.
+- `numerical_weather_prediction_project_2.py`: Stability and time-series evolution.
