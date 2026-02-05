@@ -16,13 +16,23 @@ Focuses on the temporal evolution and stability of numerical solutions.
 - **Visualization**: Output includes `.gif` animations showing the evolution of various functions and their associated error propagation over time.
 - **Key Analysis**: Investigation of how time-step selection ($\Delta t$) impacts the fidelity of the numerical prediction.
 
+## Repository Layout
+
+- `project-01-derivatives/src/numerical_weather_prediction_project_1.py` — Project 1 script
+- `project-01-derivatives/outputs/tables/` — Project 1 tables (`.txt`)
+- `project-01-derivatives/outputs/plots/` — Project 1 plots (`.png`)
+- `project-02-stability/src/numerical_weather_prediction_project_2.py` — Project 2 script
+- `project-02-stability/outputs/gifs/` — Project 2 animations (`.gif`)
+- `project-02-stability/outputs/frames/` — Project 2 frame images (`.jpg`, ignored by git)
+
 ## Requirements
 
 - Python 3.x
 - NumPy
 - Matplotlib
+- Pandas
 - SciPy
 
 ## Key Scripts
-- `numerical_weather_prediction_project_1.py`: Finite difference and error scaling analysis.
-- `numerical_weather_prediction_project_2.py`: Stability and time-series evolution.
+- `project-01-derivatives/src/numerical_weather_prediction_project_1.py`: Finite difference and error scaling analysis.
+- `project-02-stability/src/numerical_weather_prediction_project_2.py`: Stability and time-series evolution.

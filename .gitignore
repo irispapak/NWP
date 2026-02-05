@@ -1,0 +1,3 @@
+# Ignore generated frame images
+project-02-stability/outputs/frames/**/*.jpg
+project-02-stability/outputs/frames/*.jpg
